@@ -24,6 +24,7 @@ while i <= cycle_index :
         print("This is the %drd cycle" % i)
     else:
         print("This is the %dth cycle" % i)
+        
     x1 = random.randint(int(1377*x_dim/1920)+1,int(1618*x_dim/1920))
     y1 = random.randint(int(828*y_dim/1080)+1,int(879*y_dim/1080))
     m.click(x1, y1, 1)
